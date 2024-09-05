@@ -1,0 +1,1 @@
+{"uuid":"57152d08-5c20-4879-9d93-6db165937c74","name":"testCases.TC002_MobilePage","children":["7b11b24f-178d-42a5-bc2c-e5e500d9151b"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1725022563124,"stop":1725022581115}],"afters":[],"start":1725022523988,"stop":1725022628179}
