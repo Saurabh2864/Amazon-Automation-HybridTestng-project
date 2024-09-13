@@ -24,9 +24,9 @@
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Firefoxtest(failed) -->
-  <test thread-count="5" parallel="tests" name="edgeTest(failed)">
+  <test thread-count="5" parallel="tests" name="chromeTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC002_MobilePage">
         <methods>
@@ -43,5 +43,5 @@
         </methods>
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
-  </test> <!-- edgeTest(failed) -->
+  </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

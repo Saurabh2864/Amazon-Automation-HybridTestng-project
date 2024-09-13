@@ -1,62 +1,27 @@
-2024-09-13 22:20:38 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
-2024-09-13 22:22:06 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 22:22:08 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 22:23:11 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 22:23:20 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 22:23:30 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-13 22:46:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-09-14 00:16:58 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\crossbrowsertesting.xml
 
-2024-09-13 22:47:54 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 22:47:54 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 22:47:54 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 22:48:00 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 22:50:14 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 22:50:14 [TestNG-tests-2] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 22:50:18 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 23:23:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
+2024-09-14 00:17:19 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
+2024-09-14 00:17:19 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
+2024-09-14 00:17:19 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
+2024-09-14 00:17:22 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-14 00:17:30 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
+2024-09-14 00:18:03 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-14 00:18:03 [TestNG-tests-3] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-14 00:18:30 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-14 00:21:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\groupingtest.xml
 
-2024-09-13 23:24:52 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 23:24:59 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 23:25:33 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 23:25:36 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 23:25:46 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-13 23:36:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
-2024-09-13 23:36:29 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 23:36:36 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 23:37:31 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 23:37:34 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 23:37:44 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-13 23:41:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
-2024-09-13 23:42:10 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 23:42:13 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 23:42:21 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
-2024-09-13 23:42:39 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Continue
-2024-09-13 23:42:48 [main] INFO  testCases.TC001_AccountRegistrationTest - click on back button 
-2024-09-13 23:42:56 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Signin
-2024-09-13 23:43:12 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 23:43:14 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 23:43:23 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-13 23:50:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
-2024-09-13 23:50:56 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-13 23:50:57 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-13 23:51:06 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
-2024-09-13 23:51:23 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Continue
-2024-09-13 23:51:32 [main] INFO  testCases.TC001_AccountRegistrationTest - click on back button 
-2024-09-13 23:51:42 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Signin
-2024-09-13 23:51:56 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-13 23:52:11 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-13 23:52:21 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-13 23:52:32 [main] INFO  testCases.TC002_MobilePage - Click on iqoo option
-2024-09-13 23:52:39 [main] INFO  testCases.TC002_MobilePage - Click on Samsung option
-2024-09-13 23:52:42 [main] INFO  testCases.TC002_MobilePage - Iqoo & Samsung Mobile page display
-2024-09-13 23:52:42 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage Testing End**
+2024-09-14 00:21:12 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
+2024-09-14 00:21:13 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-14 00:21:22 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
+2024-09-14 00:21:39 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Continue
+2024-09-14 00:21:48 [main] INFO  testCases.TC001_AccountRegistrationTest - click on back button 
+2024-09-14 00:21:58 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Signin
+2024-09-14 00:22:18 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-14 00:22:25 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-14 00:22:35 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
+2024-09-14 00:22:46 [main] INFO  testCases.TC002_MobilePage - Click on iqoo option
+2024-09-14 00:22:49 [main] INFO  testCases.TC002_MobilePage - Click on Samsung option
+2024-09-14 00:22:51 [main] INFO  testCases.TC002_MobilePage - Iqoo & Samsung Mobile page display
+2024-09-14 00:22:51 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage Testing End**

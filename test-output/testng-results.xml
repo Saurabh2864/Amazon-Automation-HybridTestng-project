@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T23:50:47 IST" name="Master Suite" finished-at="2024-09-13T23:52:50 IST" duration-ms="123482">
+  <suite started-at="2024-09-14T00:21:01 IST" name="Suite" finished-at="2024-09-14T00:23:01 IST" duration-ms="119595">
     <groups>
       <group name="SmokeTesting">
-        <method signature="TC002_MobilePage.mobilePage()[pri:2, instance:testCases.TC002_MobilePage@6d6cb754]" name="mobilePage" class="testCases.TC002_MobilePage"/>
+        <method signature="TC002_MobilePage.mobilePage()[pri:2, instance:testCases.TC002_MobilePage@5b5caf08]" name="mobilePage" class="testCases.TC002_MobilePage"/>
       </group> <!-- SmokeTesting -->
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@17d238b1]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_MobilePage.mobilePage()[pri:2, instance:testCases.TC002_MobilePage@6d6cb754]" name="mobilePage" class="testCases.TC002_MobilePage"/>
+        <method signature="TC001_AccountRegistrationTest.verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@143d9a93]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_MobilePage.mobilePage()[pri:2, instance:testCases.TC002_MobilePage@5b5caf08]" name="mobilePage" class="testCases.TC002_MobilePage"/>
       </group> <!-- Master -->
       <group name="UnitTesting">
-        <method signature="TC001_AccountRegistrationTest.verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@17d238b1]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@143d9a93]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- UnitTesting -->
     </groups>
-    <test started-at="2024-09-13T23:50:47 IST" name="Test" finished-at="2024-09-13T23:52:50 IST" duration-ms="123482">
+    <test started-at="2024-09-14T00:21:01 IST" name="Test" finished-at="2024-09-14T00:23:01 IST" duration-ms="119595">
       <class name="testCases.TC002_MobilePage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_MobilePage@6d6cb754]" started-at="2024-09-13T23:51:51 IST" name="setup" finished-at="2024-09-13T23:51:56 IST" duration-ms="5396" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_MobilePage@5b5caf08]" started-at="2024-09-14T00:22:08 IST" name="setup" finished-at="2024-09-14T00:22:17 IST" duration-ms="9356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,24 +26,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="mobilePage()[pri:2, instance:testCases.TC002_MobilePage@6d6cb754]" started-at="2024-09-13T23:51:56 IST" name="mobilePage" finished-at="2024-09-13T23:52:42 IST" duration-ms="45774" status="PASS">
+        <test-method signature="mobilePage()[pri:2, instance:testCases.TC002_MobilePage@5b5caf08]" started-at="2024-09-14T00:22:17 IST" name="mobilePage" finished-at="2024-09-14T00:22:51 IST" duration-ms="33382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobilePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_MobilePage@6d6cb754]" started-at="2024-09-13T23:52:42 IST" name="teardown" finished-at="2024-09-13T23:52:50 IST" duration-ms="8415" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_MobilePage@5b5caf08]" started-at="2024-09-14T00:22:51 IST" name="teardown" finished-at="2024-09-14T00:23:01 IST" duration-ms="9627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC002_MobilePage -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@17d238b1]" started-at="2024-09-13T23:50:47 IST" name="setup" finished-at="2024-09-13T23:50:55 IST" duration-ms="8357" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@143d9a93]" started-at="2024-09-14T00:21:01 IST" name="setup" finished-at="2024-09-14T00:21:12 IST" duration-ms="10373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,22 +52,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@17d238b1]" started-at="2024-09-13T23:50:55 IST" name="verify_Account_Registration" finished-at="2024-09-13T23:51:42 IST" duration-ms="46554" status="PASS">
+        <test-method signature="verify_Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@143d9a93]" started-at="2024-09-14T00:21:12 IST" name="verify_Account_Registration" finished-at="2024-09-14T00:21:58 IST" duration-ms="46556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Account_Registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@17d238b1]" started-at="2024-09-13T23:51:42 IST" name="teardown" finished-at="2024-09-13T23:51:51 IST" duration-ms="8421" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@143d9a93]" started-at="2024-09-14T00:21:59 IST" name="teardown" finished-at="2024-09-14T00:22:08 IST" duration-ms="9594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+  </suite> <!-- Suite -->
 </testng-results>
