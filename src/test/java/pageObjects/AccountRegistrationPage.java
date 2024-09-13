@@ -13,20 +13,21 @@ public class AccountRegistrationPage extends BasePage{
 
 
 	//Enter mobile number or email
-	@FindBy(xpath="//*[@id=\"ap_email_login\"]")
+	@FindBy(xpath="//*[@id=\"ap_email\"]")
 	WebElement Entermailid;
 	
 	@FindBy(xpath="//*[@id=\"continue\"]/span/input")
 	WebElement clickonContinue;
 	
-	@FindBy(xpath="//*[@id=\"ap_password\"]")
-	WebElement EnterPassword;
 	
-	@FindBy(xpath="//*[@id=\"authportal-main-section\"]/div[2]/div/div[2]/div/form/div/div[2]/div/div/label/div/label/input")
-	WebElement clickoncheckbox;
+	//@FindBy(xpath="//*[@id=\"ap_password\"]")
+	//WebElement EnterPassword;
 	
-	@FindBy(xpath="//*[@id=\"signInSubmit\"]")
-	WebElement clickonsignin;
+	//@FindBy(xpath="//*[@id=\"authportal-main-section\"]/div[2]/div/div[2]/div/form/div/div[2]/div/div/label/div/label/input")
+	//WebElement clickoncheckbox;
+	
+	//@FindBy(xpath="//*[@id=\"signInSubmit\"]")
+	//WebElement clickonsignin;
 	
 	
 	
@@ -40,6 +41,10 @@ public class AccountRegistrationPage extends BasePage{
 		clickonContinue.click();
 	}
 	
+}
+	
+	
+	/*
 	public void enterpassword(String Password) {
 		EnterPassword.sendKeys(Password);
 	}
@@ -48,10 +53,10 @@ public class AccountRegistrationPage extends BasePage{
 		clickonsignin.click();
 	}
 	
+*/	
 	
 	
-	
-}
+
 	
 		
 	/*	

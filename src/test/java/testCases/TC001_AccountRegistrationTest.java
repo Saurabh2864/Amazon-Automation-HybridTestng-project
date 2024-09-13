@@ -30,7 +30,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		// Create object of AccountregistrationPage to access these method
 		
 		AccountRegistrationPage regpage= new AccountRegistrationPage(driver);
-	
+		Thread.sleep(8000);
 		regpage.Entermailid("saurabhmirajkar042@gmail.com");
 		logger.info("Enter MailId");
 	//	regpage.Entermailid(randomeString()+"@gmail.com"); //randomly generated mail id
@@ -46,12 +46,15 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		//generate password randomly (For Uppercase)
        // regpage.enterpassword(randomeString().toUpperCase());
         
-        regpage.enterpassword("Ram2864@.");
+      //  regpage.enterpassword("Ram2864@.");
+        
+        driver.navigate().back();
         Thread.sleep(8000);
-        logger.info("Enter Password");
+        logger.info("click on back button ");
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-       regpage.clickonsignin();
+      // regpage.clickonsignin();
+        driver.navigate().back();
         Thread.sleep(8000);
         logger.info("Click on the Signin");
         
