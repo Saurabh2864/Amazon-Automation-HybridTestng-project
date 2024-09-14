@@ -41,3 +41,6 @@
 2024-09-14 17:47:05 [main] INFO  testCases.TC003_SearchProduct - Acer Laptop page display
 2024-09-14 17:47:16 [main] INFO  testCases.TC003_SearchProduct - Click on Down Arrow (Product details displayed)
 2024-09-14 17:47:19 [main] INFO  testCases.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-14 19:01:43 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
+
