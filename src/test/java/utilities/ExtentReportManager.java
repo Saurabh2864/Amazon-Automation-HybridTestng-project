@@ -50,7 +50,7 @@ public class ExtentReportManager implements ITestListener{
 		
 		sparkReporter.config().setReportName("Amazon Functional Testing"); // Name of the report
 		
-		sparkReporter.config().setTheme(Theme.DARK); //Dark theme used
+		sparkReporter.config().setTheme(Theme.STANDARD); //Dark theme used
 		
 		//Project Specific details
 		

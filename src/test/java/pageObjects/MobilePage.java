@@ -17,7 +17,7 @@ public class MobilePage extends BasePage{
 
 
 	//Enter elements (Click on Mobile) 
-	@FindBy(xpath="//*[@id=\"nav-xshop\"]/a[5]")
+	@FindBy(xpath="//a[contains(text(),'Mobiles')]")
 	WebElement clkonMobile;
 	
 	@FindBy(xpath="/html")
@@ -29,10 +29,10 @@ public class MobilePage extends BasePage{
 	//@FindBy(xpath="(\"//h2[normalize-space()='Amazon smartphone stores']\"))")
 	//WebElement Verifymsg;
 	
-	@FindBy (xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[7]/span/a/div/label/i")
-	WebElement clikoniqooOpt;
+	@FindBy (xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[4]/span/a/span")
+	WebElement clikonredmi;
 	
-	@FindBy(xpath="//*[@id=\"p_89/Samsung\"]/span/a/div/label/i")
+	@FindBy(xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[2]/span/a/span")
 	WebElement clkonsamsungmob;
 	
 	
@@ -64,8 +64,8 @@ public class MobilePage extends BasePage{
 	}
 	
 	
-	public void clkonIqooopt() {
-		clikoniqooOpt.click();
+	public void clkonRedmiopt() {
+		clikonredmi.click();
 	}
 	
 	

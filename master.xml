@@ -16,9 +16,13 @@
   
     <classes>
     
-       <class name="testCases.TC001_AccountRegistrationTest"/>  
+       <class name="testCases.TC001_AccountRegistrationTest"/>   
        <class name="testCases.TC002_MobilePage"/>
+      <class name="testCases.TC003_SearchProduct"/>
+      
       
     </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

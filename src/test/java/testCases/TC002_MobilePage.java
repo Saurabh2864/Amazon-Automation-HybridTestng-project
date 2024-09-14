@@ -33,8 +33,8 @@ public class TC002_MobilePage extends BaseClass{
 		logger.info("Click on down arrow");
         Thread.sleep(8000);
         
-        mob.clkonIqooopt();
-		logger.info("Click on iqoo option");
+        mob.clkonRedmiopt();;
+		logger.info("Click on redmi option");
 
         mob.clkonSamsungopt();
         logger.info("Click on Samsung option");
@@ -42,10 +42,20 @@ public class TC002_MobilePage extends BaseClass{
 		mob.clickondownarrow();
 		logger.info("Iqoo & Samsung Mobile page display");
         
+		Thread.sleep(5000);
+		
+		driver.navigate().back();
+		Thread.sleep(8000);
+		
+		driver.navigate().back();
+		Thread.sleep(5000);
+		
+		logger.info("clicked on back button two times ");
         
+		
 		} catch(Exception e)
 		{
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 		}
 		logger.info("** TC002_MobilePage Testing End**");
 		

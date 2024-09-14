@@ -4,17 +4,10 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Firefoxtest(failed)">
+  <test thread-count="5" parallel="tests" name="edgeTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC002_MobilePage">
-        <methods>
-          <include name="teardown"/>
-          <include name="mobilePage"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC002_MobilePage -->
       <class name="testCases.TC001_AccountRegistrationTest">
         <methods>
           <include name="teardown"/>
@@ -22,26 +15,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </classes>
-  </test> <!-- Firefoxtest(failed) -->
-  <test thread-count="5" parallel="tests" name="chromeTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.TC002_MobilePage">
+      <class name="testCases.TC003_SearchProduct">
         <methods>
           <include name="teardown"/>
+          <include name="setup"/>
           <include name="mobilePage"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC002_MobilePage -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="verify_Account_Registration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC003_SearchProduct -->
     </classes>
-  </test> <!-- chromeTest(failed) -->
+  </test> <!-- edgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
