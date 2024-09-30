@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 30.894 s <<< FAILURE! - in TestSuite
+verify_Account_Registration(testCases.TC001_AccountRegistrationTest)  Time elapsed: 18.47 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //*[@id=\"continue\"]/span/ because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"continue\"]/span/' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [457a4b9dbc87c78dc2d263a8a3100c6a, findElement {value=//*[@id="continue"]/span/, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\smira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52364/devtoo..., se:cdpVersion: 129.0.6668.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 457a4b9dbc87c78dc2d263a8a3100c6a
+	at testCases.TC001_AccountRegistrationTest.verify_Account_Registration(TC001_AccountRegistrationTest.java:143)
+
+tearDownMethod(testCases.TC001_AccountRegistrationTest)  Time elapsed: 18.688 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\.\test-recordings\verify_Account_Registration.avi (The system cannot find the file specified)
+

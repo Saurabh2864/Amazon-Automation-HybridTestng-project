@@ -7,41 +7,41 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class MobilePage extends BasePage{
-	
-	
-	
+
+
+
 	public MobilePage(WebDriver driver) {
 		super(driver);
-	
+
 	}
 
 
-	//Enter elements (Click on Mobile) 
+	//Enter elements (Click on Mobile)
 	@FindBy(xpath="//a[contains(text(),'Mobiles')]")
 	WebElement clkonMobile;
-	
+
 	@FindBy(xpath="/html")
 	WebElement clickdown;
-	
+
 //	@FindBy(name="(\"//h2[normalize-space()='Latest launches in Mobiles & Accessories']\"))")
 //	WebElement msgConfirmation;
-	
+
 	//@FindBy(xpath="(\"//h2[normalize-space()='Amazon smartphone stores']\"))")
 	//WebElement Verifymsg;
-	
-	@FindBy (xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[4]/span/a/span")
+
+	@FindBy (xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[6]/span/a/div/label/i")
 	WebElement clikonredmi;
-	
-	@FindBy(xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[2]/span/a/span")
+
+	@FindBy(xpath="//*[@id=\"s-refinements\"]/div[6]/ul/li[3]/span/a/div/label/i")
 	WebElement clkonsamsungmob;
-	
-	
-// Action Methods 
-	
+
+
+// Action Methods
+
 	public void clickonMobile() {
 		clkonMobile.click();
 	}
-	
+
 	public void clickondownarrow() {
 		clickdown.sendKeys(Keys.ARROW_DOWN);
 		clickdown.sendKeys(Keys.ARROW_DOWN);
@@ -58,37 +58,37 @@ public class MobilePage extends BasePage{
 		clickdown.sendKeys(Keys.ARROW_DOWN);
 		clickdown.sendKeys(Keys.ARROW_DOWN);
 		clickdown.sendKeys(Keys.ARROW_DOWN);
-		
+
 
 
 	}
-	
-	
+
+
 	public void clkonRedmiopt() {
 		clikonredmi.click();
 	}
-	
-	
+
+
 	public void clkonSamsungopt() {
 		clkonsamsungmob.click();
 	}
 
 	//validation for confirmation message
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-/*	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 	public String getConfirmationMsg() {
 		try {
 			return (msgConfirmation.getText());
@@ -96,15 +96,15 @@ public class MobilePage extends BasePage{
 			return(e.getMessage());
 		}
 	}
-	
-	
-	
-	
-	
-	
 
-	
-		
+
+
+
+
+
+
+
+
 	public boolean checkmessage() {
 		try {
 			return(Verifymsg.isDisplayed());
@@ -113,12 +113,12 @@ public class MobilePage extends BasePage{
 		{
 			return false;
 		}
-		
+
 	}
-	
-	
-	
-	
+
+
+
+
 	/*
 	{
 	String actualTitle = driver.getTitle();
@@ -129,6 +129,6 @@ public class MobilePage extends BasePage{
     // Verify the title
     Assert.assertEquals(actualTitle, expectedTitle, "Title did not match!");
 	}
-	
+
 */
 }

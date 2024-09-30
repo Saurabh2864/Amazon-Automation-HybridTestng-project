@@ -1,46 +1,226 @@
-2024-09-14 17:34:16 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-09-29 17:28:26 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 17:28:26 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 17:28:26 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 17:28:26 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\groupingtest.xml
+
+2024-09-29 17:28:31 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - **Regression Testing- TC001--> VerifyProdutText
+2024-09-29 17:28:32 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Acer Laptop product Searched successfully
+2024-09-29 17:28:39 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on submit Option
+2024-09-29 17:28:50 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on down 
+2024-09-29 17:28:54 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on acer swift go 14 oled core i5 laptop
+2024-09-29 17:29:10 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option testing Started ***
+2024-09-29 17:29:15 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Best Seller Option
+2024-09-29 17:29:20 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Again Click on Menu option
+2024-09-29 17:29:24 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Close (Crossmark) Option
+2024-09-29 17:29:29 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option Testing End
+2024-09-29 17:29:42 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 17:29:43 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 17:29:51 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 17:30:09 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Continue
+2024-09-29 17:30:18 [main] INFO  unit_testing.TC001_AccountRegistrationTest - click on back button 
+2024-09-29 17:30:26 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Signin
+2024-09-29 17:30:26 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing END **
+2024-09-29 17:30:39 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-29 17:30:51 [main] INFO  unit_testing.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-29 17:31:00 [main] INFO  unit_testing.TC002_MobilePage - Click on down arrow
+2024-09-29 17:31:11 [main] INFO  unit_testing.TC002_MobilePage - Click on redmi option
+2024-09-29 17:31:21 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage Testing End**
+2024-09-29 17:31:32 [main] INFO  unit_testing.TC003_SearchProduct - ** TC003_Search Product Testing started**
+2024-09-29 17:31:32 [main] INFO  unit_testing.TC003_SearchProduct - ***Click on Search Option
+2024-09-29 17:31:37 [main] INFO  unit_testing.TC003_SearchProduct - Acer Laptop product Searched successfully
+2024-09-29 17:31:45 [main] INFO  unit_testing.TC003_SearchProduct - Click on submit Option
+2024-09-29 17:31:59 [main] INFO  unit_testing.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-29 17:32:11 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - ***TC004 Cart Functionality Testing Started*****
+2024-09-29 17:32:15 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Clicked on TextBox
+2024-09-29 17:32:22 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Text added in Search Option (Galaxy M35 5G Mobile)
+2024-09-29 17:32:27 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on Search Option
+2024-09-29 17:32:35 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on down 
+2024-09-29 17:32:40 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on add cart option
+2024-09-29 17:32:46 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on the cart option
+2024-09-29 17:33:07 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing started
+2024-09-29 17:33:18 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - textbox cleared
+2024-09-29 17:33:23 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Zipcode Added
+2024-09-29 17:33:28 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Click on Apply
+2024-09-29 17:33:28 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing End
+2024-09-29 17:33:38 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ***** TC006_ Verify Amazon Logo Testing Started ****
+2024-09-29 17:33:38 [main] INFO  unit_testing.TC006_Verify_AmazonLogo -  Checked Amazon logo is displayed or not
+2024-09-29 17:33:38 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ****TC006--> Verify Amazon Logo Testing End ****
+2024-09-29 19:24:07 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 19:24:07 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 19:24:07 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 19:24:08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
+
+2024-09-29 19:24:26 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - **Regression Testing- TC001--> VerifyProdutText
+2024-09-29 19:24:27 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Acer Laptop product Searched successfully
+2024-09-29 19:24:34 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on submit Option
+2024-09-29 19:24:45 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on down 
+2024-09-29 19:24:48 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on acer swift go 14 oled core i5 laptop
+2024-09-29 19:24:54 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Regression Testing TC001--> Verify producttext available test is closed
+2024-09-29 19:25:17 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option testing Started ***
+2024-09-29 19:25:23 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Best Seller Option
+2024-09-29 19:25:28 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Again Click on Menu option
+2024-09-29 19:25:32 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Close (Crossmark) Option
+2024-09-29 19:25:36 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option Testing End
+2024-09-29 19:25:45 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 19:25:46 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 19:25:54 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 19:26:11 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Continue
+2024-09-29 19:26:19 [main] INFO  unit_testing.TC001_AccountRegistrationTest - click on back button 
+2024-09-29 19:26:27 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Signin
+2024-09-29 19:26:27 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing END **
+2024-09-29 19:26:36 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-29 19:26:48 [main] INFO  unit_testing.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-29 19:26:58 [main] INFO  unit_testing.TC002_MobilePage - Click on down arrow
+2024-09-29 19:27:08 [main] INFO  unit_testing.TC002_MobilePage - Click on redmi option
+2024-09-29 19:27:18 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage Testing End**
+2024-09-29 19:27:26 [main] INFO  unit_testing.TC003_SearchProduct - ** TC003_Search Product Testing started**
+2024-09-29 19:27:27 [main] INFO  unit_testing.TC003_SearchProduct - ***Click on Search Option
+2024-09-29 19:27:32 [main] INFO  unit_testing.TC003_SearchProduct - Acer Laptop product Searched successfully
+2024-09-29 19:27:39 [main] INFO  unit_testing.TC003_SearchProduct - Click on submit Option
+2024-09-29 19:27:53 [main] INFO  unit_testing.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-29 19:28:02 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - ***TC004 Cart Functionality Testing Started*****
+2024-09-29 19:28:06 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Clicked on TextBox
+2024-09-29 19:28:13 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Text added in Search Option (Galaxy M35 5G Mobile)
+2024-09-29 19:28:18 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on Search Option
+2024-09-29 19:28:26 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on down 
+2024-09-29 19:28:32 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on add cart option
+2024-09-29 19:28:38 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on the cart option
+2024-09-29 19:28:58 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing started
+2024-09-29 19:29:08 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - textbox cleared
+2024-09-29 19:29:14 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Zipcode Added
+2024-09-29 19:29:19 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Click on Apply
+2024-09-29 19:29:19 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing End
+2024-09-29 19:29:27 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ***** TC006_ Verify Amazon Logo Testing Started ****
+2024-09-29 19:29:27 [main] INFO  unit_testing.TC006_Verify_AmazonLogo -  Checked Amazon logo is displayed or not
+2024-09-29 19:29:27 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ****TC006--> Verify Amazon Logo Testing End ****
+2024-09-29 20:14:59 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 20:14:59 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 20:14:59 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 20:14:59 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
+
+2024-09-29 20:15:17 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - **Regression Testing- TC001--> VerifyProdutText
+2024-09-29 20:15:17 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Acer Laptop product Searched successfully
+2024-09-29 20:15:49 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on submit Option
+2024-09-29 20:16:01 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on down 
+2024-09-29 20:16:04 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on acer swift go 14 oled core i5 laptop
+2024-09-29 20:16:31 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Regression Testing TC001--> Verify producttext available test is closed
+2024-09-29 20:17:07 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option testing Started ***
+2024-09-29 20:17:12 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Best Seller Option
+2024-09-29 20:17:35 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Again Click on Menu option
+2024-09-29 20:17:39 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Close (Crossmark) Option
+2024-09-29 20:17:43 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option Testing End
+2024-09-29 20:18:40 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 20:18:48 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 20:18:56 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 20:19:14 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Continue
+2024-09-29 20:19:23 [main] INFO  unit_testing.TC001_AccountRegistrationTest - click on back button 
+2024-09-29 20:19:31 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Signin
+2024-09-29 20:19:31 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing END **
+2024-09-29 20:19:52 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-29 20:20:52 [main] INFO  unit_testing.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-29 20:21:03 [main] INFO  unit_testing.TC002_MobilePage - Click on down arrow
+2024-09-29 20:21:16 [main] INFO  unit_testing.TC002_MobilePage - Click on redmi option
+2024-09-29 20:21:26 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage Testing End**
+2024-09-29 20:21:47 [main] INFO  unit_testing.TC003_SearchProduct - ** TC003_Search Product Testing started**
+2024-09-29 20:21:48 [main] INFO  unit_testing.TC003_SearchProduct - ***Click on Search Option
+2024-09-29 20:21:54 [main] INFO  unit_testing.TC003_SearchProduct - Acer Laptop product Searched successfully
+2024-09-29 20:22:13 [main] INFO  unit_testing.TC003_SearchProduct - Click on submit Option
+2024-09-29 20:22:28 [main] INFO  unit_testing.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-29 20:22:50 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - ***TC004 Cart Functionality Testing Started*****
+2024-09-29 20:22:55 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Clicked on TextBox
+2024-09-29 20:23:07 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Text added in Search Option (Galaxy M35 5G Mobile)
+2024-09-29 20:23:17 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on Search Option
+2024-09-29 20:23:27 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on down 
+2024-09-29 20:23:36 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on add cart option
+2024-09-29 20:23:43 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on the cart option
+2024-09-29 20:24:18 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing started
+2024-09-29 20:24:28 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - textbox cleared
+2024-09-29 20:24:34 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Zipcode Added
+2024-09-29 20:24:39 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Click on Apply
+2024-09-29 20:24:39 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing End
+2024-09-29 20:25:09 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ***** TC006_ Verify Amazon Logo Testing Started ****
+2024-09-29 20:25:09 [main] INFO  unit_testing.TC006_Verify_AmazonLogo -  Checked Amazon logo is displayed or not
+2024-09-29 20:25:09 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ****TC006--> Verify Amazon Logo Testing End ****
+2024-09-29 23:30:15 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:30:15 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:30:15 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:30:16 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
+
+2024-09-29 23:30:26 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - **Regression Testing- TC001--> VerifyProdutText
+2024-09-29 23:30:27 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Acer Laptop product Searched successfully
+2024-09-29 23:30:34 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on submit Option
+2024-09-29 23:30:43 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on down 
+2024-09-29 23:30:47 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on acer swift go 14 oled core i5 laptop
+2024-09-29 23:31:01 [main] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Regression Testing TC001--> Verify producttext available test is closed
+2024-09-29 23:31:26 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option testing Started ***
+2024-09-29 23:31:31 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Best Seller Option
+2024-09-29 23:31:38 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Again Click on Menu option
+2024-09-29 23:31:42 [main] INFO  regression_Testing.TC002_Verify_All_Menu - Click on Close (Crossmark) Option
+2024-09-29 23:31:47 [main] INFO  regression_Testing.TC002_Verify_All_Menu - *** Regression Testing- TC002--> Verify (ALL) Menu option Testing End
+2024-09-29 23:31:57 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 23:31:58 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 23:32:07 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 23:32:27 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Continue
+2024-09-29 23:32:38 [main] INFO  unit_testing.TC001_AccountRegistrationTest - click on back button 
+2024-09-29 23:32:46 [main] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the Signin
+2024-09-29 23:32:47 [main] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing END **
+2024-09-29 23:33:29 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage started**
+2024-09-29 23:34:20 [main] INFO  unit_testing.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
+2024-09-29 23:34:29 [main] INFO  unit_testing.TC002_MobilePage - Click on down arrow
+2024-09-29 23:35:20 [main] INFO  unit_testing.TC002_MobilePage - Click on redmi option
+2024-09-29 23:35:30 [main] INFO  unit_testing.TC002_MobilePage - ** TC002_MobilePage Testing End**
+2024-09-29 23:35:39 [main] INFO  unit_testing.TC003_SearchProduct - ** TC003_Search Product Testing started**
+2024-09-29 23:35:40 [main] INFO  unit_testing.TC003_SearchProduct - ***Click on Search Option
+2024-09-29 23:35:45 [main] INFO  unit_testing.TC003_SearchProduct - Acer Laptop product Searched successfully
+2024-09-29 23:35:50 [main] INFO  unit_testing.TC003_SearchProduct - Click on submit Option
+2024-09-29 23:38:54 [main] INFO  unit_testing.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-29 23:39:41 [main] INFO  unit_testing.TC004_Verify_Cart_Functionality - ***TC004 Cart Functionality Testing Started*****
+2024-09-29 23:40:52 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing started
+2024-09-29 23:41:02 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - textbox cleared
+2024-09-29 23:41:08 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Zipcode Added
+2024-09-29 23:41:13 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - Click on Apply
+2024-09-29 23:41:13 [main] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing End
+2024-09-29 23:41:28 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ***** TC006_ Verify Amazon Logo Testing Started ****
+2024-09-29 23:41:28 [main] INFO  unit_testing.TC006_Verify_AmazonLogo -  Checked Amazon logo is displayed or not
+2024-09-29 23:41:28 [main] INFO  unit_testing.TC006_Verify_AmazonLogo - ****TC006--> Verify Amazon Logo Testing End ****
+2024-09-29 23:48:04 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:48:04 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:48:04 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-09-29 23:48:04 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\crossbrowsertesting.xml
 
-2024-09-14 17:34:28 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-14 17:34:52 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-14 17:34:55 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-14 17:35:05 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
-2024-09-14 17:35:23 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Click on the Continue
-2024-09-14 17:35:43 [TestNG-tests-3] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-14 17:35:51 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - click on back button 
-2024-09-14 17:35:53 [TestNG-tests-3] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage Testing End**
-2024-09-14 17:36:01 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Click on the Signin
-2024-09-14 17:36:47 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-14 17:37:09 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-14 17:37:20 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-14 17:37:38 [TestNG-tests-1] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage Testing End**
-2024-09-14 17:38:04 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - ** TC003_Search Product started**
-2024-09-14 17:38:04 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - ***Click on Search Option
-2024-09-14 17:38:10 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - Acer Laptop product Searched successfully
-2024-09-14 17:38:22 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - Click on submit Option
-2024-09-14 17:38:27 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - Acer Laptop page display
-2024-09-14 17:38:39 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - Click on Down Arrow (Product details displayed)
-2024-09-14 17:38:42 [TestNG-tests-1] INFO  testCases.TC003_SearchProduct - TC003_ SearchProduct Testing End
-2024-09-14 17:43:53 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
-2024-09-14 17:44:10 [main] INFO  testCases.TC001_AccountRegistrationTest - *verify_Account_Registration**
-2024-09-14 17:44:15 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the sign in button
-2024-09-14 17:44:24 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter MailId
-2024-09-14 17:44:42 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Continue
-2024-09-14 17:44:50 [main] INFO  testCases.TC001_AccountRegistrationTest - click on back button 
-2024-09-14 17:44:58 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on the Signin
-2024-09-14 17:45:26 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage started**
-2024-09-14 17:45:52 [main] INFO  testCases.TC002_MobilePage - Click on the Mobile Option(Mobile Page display)
-2024-09-14 17:46:02 [main] INFO  testCases.TC002_MobilePage - Click on down arrow
-2024-09-14 17:46:20 [main] INFO  testCases.TC002_MobilePage - ** TC002_MobilePage Testing End**
-2024-09-14 17:46:46 [main] INFO  testCases.TC003_SearchProduct - ** TC003_Search Product started**
-2024-09-14 17:46:46 [main] INFO  testCases.TC003_SearchProduct - ***Click on Search Option
-2024-09-14 17:46:51 [main] INFO  testCases.TC003_SearchProduct - Acer Laptop product Searched successfully
-2024-09-14 17:47:00 [main] INFO  testCases.TC003_SearchProduct - Click on submit Option
-2024-09-14 17:47:05 [main] INFO  testCases.TC003_SearchProduct - Acer Laptop page display
-2024-09-14 17:47:16 [main] INFO  testCases.TC003_SearchProduct - Click on Down Arrow (Product details displayed)
-2024-09-14 17:47:19 [main] INFO  testCases.TC003_SearchProduct - TC003_ SearchProduct Testing End
-2024-09-14 19:01:43 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\smira\eclipse-workspace\Amazon-Automation-HybridTestng-project\master.xml
-
+2024-09-29 23:48:15 [TestNG-tests-3] INFO  regression_Testing.TC001_VerifyProducttextAvailable - **Regression Testing- TC001--> VerifyProdutText
+2024-09-29 23:48:15 [TestNG-tests-3] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Acer Laptop product Searched successfully
+2024-09-29 23:48:23 [TestNG-tests-3] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on submit Option
+2024-09-29 23:48:31 [TestNG-tests-3] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on down 
+2024-09-29 23:48:32 [TestNG-tests-2] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 23:48:33 [TestNG-tests-2] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 23:48:35 [TestNG-tests-3] INFO  regression_Testing.TC001_VerifyProducttextAvailable - Click on acer swift go 14 oled core i5 laptop
+2024-09-29 23:48:35 [TestNG-tests-1] INFO  unit_testing.TC001_AccountRegistrationTest - *** TC001--> Account registration page testing started**
+2024-09-29 23:48:37 [TestNG-tests-1] INFO  unit_testing.TC001_AccountRegistrationTest - Click on the sign in button
+2024-09-29 23:48:42 [TestNG-tests-2] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 23:48:46 [TestNG-tests-1] INFO  unit_testing.TC001_AccountRegistrationTest - Enter MailId
+2024-09-29 23:50:50 [TestNG-tests-3] INFO  unit_testing.TC003_SearchProduct - ** TC003_Search Product Testing started**
+2024-09-29 23:50:51 [TestNG-tests-3] INFO  unit_testing.TC003_SearchProduct - ***Click on Search Option
+2024-09-29 23:50:56 [TestNG-tests-3] INFO  unit_testing.TC003_SearchProduct - Acer Laptop product Searched successfully
+2024-09-29 23:51:20 [TestNG-tests-3] INFO  unit_testing.TC003_SearchProduct - Click on submit Option
+2024-09-29 23:51:34 [TestNG-tests-3] INFO  unit_testing.TC003_SearchProduct - TC003_ SearchProduct Testing End
+2024-09-29 23:52:09 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - ***TC004 Cart Functionality Testing Started*****
+2024-09-29 23:52:14 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - Clicked on TextBox
+2024-09-29 23:52:21 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - Text added in Search Option (Galaxy M35 5G Mobile)
+2024-09-29 23:52:26 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on Search Option
+2024-09-29 23:52:37 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on down 
+2024-09-29 23:52:43 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - Click on add cart option
+2024-09-29 23:52:49 [TestNG-tests-3] INFO  unit_testing.TC004_Verify_Cart_Functionality - click on the cart option
+2024-09-29 23:53:15 [TestNG-tests-3] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing started
+2024-09-29 23:53:26 [TestNG-tests-3] INFO  unit_testing.TC005_Verify_Location_Functionality - textbox cleared
+2024-09-29 23:53:32 [TestNG-tests-3] INFO  unit_testing.TC005_Verify_Location_Functionality - Zipcode Added
+2024-09-29 23:53:37 [TestNG-tests-3] INFO  unit_testing.TC005_Verify_Location_Functionality - Click on Apply
+2024-09-29 23:53:37 [TestNG-tests-3] INFO  unit_testing.TC005_Verify_Location_Functionality - ***TC005 --> Verify location functionality testing End
+2024-09-29 23:53:53 [TestNG-tests-3] INFO  unit_testing.TC006_Verify_AmazonLogo - ***** TC006_ Verify Amazon Logo Testing Started ****
+2024-09-29 23:53:53 [TestNG-tests-3] INFO  unit_testing.TC006_Verify_AmazonLogo -  Checked Amazon logo is displayed or not
+2024-09-29 23:53:53 [TestNG-tests-3] INFO  unit_testing.TC006_Verify_AmazonLogo - ****TC006--> Verify Amazon Logo Testing End ****

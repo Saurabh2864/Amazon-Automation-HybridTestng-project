@@ -172,6 +172,20 @@
     <version>1.6.0</version>
 </dependency>
 
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.19</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+<dependency>
+    <groupId>com.github.stephenc.monte</groupId>
+    <artifactId>monte-screen-recorder</artifactId>
+    <version>0.7.7.0</version>
+</dependency>
+
+
     
     
     
@@ -203,8 +217,21 @@
              <suiteXmlFile>master.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
-          
-        </plugin>
+           </plugin>
+         
+          <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.11.2</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>report</goal> <!-- Goal to generate Allure report -->
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+           
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>

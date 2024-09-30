@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Suite">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+   <!--   <listener class-name="PDFReportGenerator"/>  -->
+  </listeners>
+
+  <test name="Amazon Functionality Testing">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+        <!-- Uncomment the following lines to run specific group tests -->
+        <include name="UnitTesting"/>
+         <include name="SmokeTesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="unit_testing.TC001_AccountRegistrationTest"/>
+       <class name="unit_testing.TC002_MobilePage"/>
+     <class name="unit_testing.TC003_SearchProduct"/>
+    </classes>
+  </test>
+</suite>
