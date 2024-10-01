@@ -173,6 +173,8 @@ public class ExtentReportManager implements ITestListener {
 
     private void attachScreenshotToAllure(String imgPath) throws IOException {
        Allure.addAttachment("Screenshot", "image/png", FileUtils.openInputStream(new File(imgPath)), "png");
+      // Allure.addAttachment("Test Failure Video", "video/mp4", new File(videoPath).toURI().toURL().openStream(), "mp4");
+
     }
 
     public String captureScreen(String tname) throws IOException {

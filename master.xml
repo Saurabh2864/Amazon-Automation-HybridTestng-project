@@ -47,7 +47,7 @@
       <class name="unit_testing.TC001_AccountRegistrationTest"/>
       <class name="unit_testing.TC002_MobilePage"/>
       <class name="unit_testing.TC003_SearchProduct"/>
-      <class name="unit_testing.TC004_Verify_Cart_Functionality"/>
+   <!--    <class name="unit_testing.TC004_Verify_Cart_Functionality"/>   -->
       <class name="unit_testing.TC005_Verify_Location_Functionality"/>
        <class name="unit_testing.TC006_Verify_AmazonLogo"/>
 

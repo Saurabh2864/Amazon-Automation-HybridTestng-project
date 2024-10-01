@@ -120,7 +120,7 @@ public class BaseClass {
 
 			}
 
-			driver= new RemoteWebDriver(new URL("http://192.168.101.76:4444/wd/hub"), capabilities);
+			driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 
 		}
 
