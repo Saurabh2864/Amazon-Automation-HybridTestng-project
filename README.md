@@ -20,7 +20,7 @@ This is my Selenium with Java Hybrid Automation Testing project
 ![POM](https://img.icons8.com/color/48/000000/data-in-both-directions.png) |
 
 ** Extent Reports Images **
-![] ("C:\Users\smira\OneDrive\Pictures\Screenshots\Screenshot 2024-10-01 231712.png") |
+![](https://github.com/Saurabh2864/Amazon-Automation-HybridTestng-project/blob/master/Screenshot%202024-10-01%20231712.png) |
 
 
 
