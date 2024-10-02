@@ -19,10 +19,18 @@ This is my Selenium with Java Hybrid Automation Testing project
 ![Docker](https://img.icons8.com/color/48/000000/docker.png) |
 ![POM](https://img.icons8.com/color/48/000000/data-in-both-directions.png) |
 
-** Extent Reports Images **
+                                ** Extent Reports Images **
+
+ 1) Passed Test Cases  
+                             
 ![](https://github.com/Saurabh2864/Amazon-Automation-HybridTestng-project/blob/master/Screenshot%202024-10-01%20231712.png) |
 
+2) Pass,Failed And Skipped Test Cases
 
+![](https://github.com/Saurabh2864/Saurabh2864/blob/main/Screenshot%202024-10-01%20234142.png) |
 
- 
+3) Screenshot Attached When Test Cases Failed
+
+![](https://github.com/Saurabh2864/Saurabh2864/blob/main/Screenshot%202024-10-01%20234220.png)  |
+
 
