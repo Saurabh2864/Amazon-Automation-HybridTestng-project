@@ -18,5 +18,11 @@ This is my Selenium with Java Hybrid Automation Testing project
  ![TestNG](https://img.icons8.com/color/48/000000/test-passed.png) |
 ![Docker](https://img.icons8.com/color/48/000000/docker.png) |
 ![POM](https://img.icons8.com/color/48/000000/data-in-both-directions.png) |
+
+** Extent Reports Images **
+![] ("C:\Users\smira\OneDrive\Pictures\Screenshots\Screenshot 2024-10-01 231712.png") |
+
+
+
  
 
